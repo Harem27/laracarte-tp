@@ -1,4 +1,4 @@
-@extends('templaites.default')
+@extends('templaites.default', ['titre' => 'Home'])
 
 @section('contenu') 
 

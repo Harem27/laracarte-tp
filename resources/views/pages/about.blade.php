@@ -1,4 +1,4 @@
-@extends('templaites.default')
+@extends('templaites.default', ['titre' => 'About'])
 
 @section('contenu')
 
@@ -16,7 +16,7 @@
 
 	</div>
 
-	<p>Feel free to help to improve the <a href="https://gethub.com"> source code </a>.<p>
+	<p>Feel free to help to improve the <a href="https://github.com/Harem27/laracarte-tp" target="_blank"> source code </a>.<p>
 
 	<hr>
 	

@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Laracarte</title>  
+<title> {{ isset($titre)? $titre . ' | ' . 'Laracarte list of artisans' : 'Laracarte list of artisan' }} </title>
 
        <meta name="viewport" content="width=device-width, initial-scale=1"> 
 
